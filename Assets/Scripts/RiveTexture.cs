@@ -141,7 +141,7 @@ public class RiveTexture : MonoBehaviour
         }
         else if (m_wasMouseDown)
         {
-            m_wasMouseDown = false; Vector2 local = m_artboard.LocalCoordinate(mouseRiveScreenPos, new Rect(0, 0, m_renderTexture.width, m_renderTexture.height), fit, alignment);
+            m_wasMouseDown = false; Vector2 local = m_artboard.LocalCoordinate(pixelUV, new Rect(0, 0, m_renderTexture.width, m_renderTexture.height), fit, alignment);
             m_stateMachine?.PointerUp(local);
         }
     }
