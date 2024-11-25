@@ -1,6 +1,6 @@
 ## Introduction
 
-This project contains functions that enable pan and zoom from within the Rive file. This way you can zoom in without losing quality. 
+This project contains functions that enable pan and zoom from within the Rive file in Unity. This way you can zoom in without losing quality. 
 
 A modified version of RiveScreen.cs is provided which also prevents button click during panning/zooming and will prevent panning/zooming during button click.
 
